@@ -6,4 +6,5 @@ bootstrap:
 	--read-write-key \
 	--private-key-file ./flux-key \
 	--verbose \
+	--personal \
 	--path=./clusters/$(environment)
